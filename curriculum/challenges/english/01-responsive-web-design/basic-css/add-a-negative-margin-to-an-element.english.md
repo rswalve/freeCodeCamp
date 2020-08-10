@@ -2,8 +2,9 @@
 id: bad87fee1348bd9aedf08823
 title: Add a Negative Margin to an Element
 challengeType: 0
-guideUrl: 'https://www.freecodecamp.org/guide/certificates/add-a-negative-margin-to-an-element'
+isHidden: false
 videoUrl: 'https://scrimba.com/c/cnpyGs3'
+forumTopicId: 16166
 ---
 
 ## Description
@@ -24,7 +25,7 @@ Change the <code>margin</code> of the blue box to <code>-15px</code>, so it fill
 ```yml
 tests:
   - text: Your <code>blue-box</code> class should give elements <code>-15px</code> of <code>margin</code>.
-    testString: assert($(".blue-box").css("margin-top") === "-15px", 'Your <code>blue-box</code> class should give elements <code>-15px</code> of <code>margin</code>.');
+    testString: assert($(".blue-box").css("margin-top") === "-15px");
 
 ```
 
@@ -124,4 +125,5 @@ tests:
   <h5 class="box blue-box">padding</h5>
 </div>
 ```
+
 </section>
